@@ -7,6 +7,8 @@ class App extends Component {
 
   state = {
     characters: [],
+    search: " ",
+    stateSearch: false
   }
 
   componentDidMount() {
@@ -22,12 +24,26 @@ class App extends Component {
       );   
   }
 
+  onchange = e =>{
+    this.setState({ search : e.target.value})
+  }
+
   render() {
+
+    const {search} = this.state;
+    const filterCharacteres = this.state.characters.filter ( character => {
+      return character.name.toLowerCase().indexOf( search.toLowerCase() ) !== -1
+    })
+
     return (
       <div className="App">
         <div>
+          <input label = "Pesquise os personagens" onChange = {this.onchange} />
+        </div>
+        <h1>Voce pesquisou por "{search}"</h1>
+        <div>
           {
-            this.state.characters.map((character) => (
+            filterCharacteres.map((character) => (
               <Cards character={character} key={character.char_id} />
             ))
           }
