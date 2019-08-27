@@ -5,6 +5,7 @@ import Cards from './components/Cards.js';
 import logo from './assets/breaking-bad-vector-logo.png';
 import lupa from './assets/ic-search-copy.png';
 
+
 class App extends Component {
 
   constructor(props) {
@@ -43,6 +44,7 @@ class App extends Component {
 
     return (
       <div className="App">
+       
         <nav className="header">
           <img src={logo} alt='logo' id="logo" />
           <div className="search-bar">
