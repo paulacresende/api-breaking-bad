@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e4e8bba2.chunk.css",
+    "main.js": "/static/js/main.582c5748.chunk.js",
+    "main.js.map": "/static/js/main.582c5748.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.c2b67788.js",
+    "runtime~main.js.map": "/static/js/runtime~main.c2b67788.js.map",
+    "static/js/2.a314e987.chunk.js": "/static/js/2.a314e987.chunk.js",
+    "static/js/2.a314e987.chunk.js.map": "/static/js/2.a314e987.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4cdc51deb0c44807ab89027af02a4768.js": "/precache-manifest.4cdc51deb0c44807ab89027af02a4768.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.e4e8bba2.chunk.css.map": "/static/css/main.e4e8bba2.chunk.css.map",
+    "static/media/breaking-bad-vector-logo.png": "/static/media/breaking-bad-vector-logo.e159f1a2.png",
+    "static/media/estrela.png": "/static/media/estrela.d38e4510.png"
+  }
+}
